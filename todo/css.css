@@ -1,0 +1,41 @@
+body{
+
+
+
+}
+ 
+ul {
+    
+    
+
+}
+li {
+    grid-template-columns: 50px 1fr 110px;
+    grid-template-rows: 1fr;
+    grid-template-areas: "input" "label" "button";
+    display: grid;
+    border:white solid 5px;
+    align-content: space-between;
+    height: 2.5em;
+    width: 400px;
+    background-color: lightblue;
+    justify-content: space-evenly;
+    padding-top: .5em;
+    padding-right: .5em;
+    
+}
+#checkbox {
+    zoom: 1.5;
+ 
+
+}
+#remove{
+
+    height: fit-content;
+ 
+
+}
+
+label {
+    font-size: 1.5em;
+}
