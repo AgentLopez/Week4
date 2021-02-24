@@ -26,6 +26,8 @@ addButton.addEventListener("click", function(self) {
         else {
             currentItems.appendChild(this.parentElement)
         }
+    
+
 
     })
 
@@ -44,6 +46,8 @@ addButton.addEventListener("click", function(self) {
     liItem.appendChild(checkBox)
     liItem.appendChild(listItem)
     liItem.appendChild(removeItem)
+
+    newItem.value = ""
 
     
 })
