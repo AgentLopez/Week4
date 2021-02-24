@@ -1,0 +1,59 @@
+.total{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.title {
+    justify-self: center;
+}
+.dish {
+    display: flex;
+    background-color: lightpink;
+}
+
+.menubar {
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.title {
+    padding: 10px 10px 10px 20px;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    padding: 10px;
+}
+
+.price{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.image {
+    border: lightskyblue solid 5px;
+    height: 200px;
+    width: 200px;
+}
+
+@media (max-width: 600px) {
+
+.dish {
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.title{
+    text-align: center;
+}
+.dish {
+    border: darkgreen solid 5px;
+}
+
+
+}
