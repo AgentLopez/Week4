@@ -3,21 +3,27 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(153, 221, 238);
+}
+
 button {
     font-size: 1.5rem;
 }
 .total{
     display: grid;
-
     max-width: 1000px;
 }
 
 .title {
+    padding: 10px 10px 10px 20px;
     justify-self: center;
+    color: rgb(185, 0, 0);
 }
 .dish {
     display: flex;
     background-color: lightpink;
+    border: rgb(153, 221, 238) solid 5px;
 }
 
 .menubar {
@@ -26,11 +32,12 @@ button {
     justify-self: center;
 }
 
-.title {
+.dishtitle {
     padding: 10px 10px 10px 20px;
     font-size: 1.5rem;
     justify-content: center;
     align-items: center;
+    justify-self: center;
 }
 
 .description {
@@ -43,7 +50,7 @@ button {
 }
 
 .image {
-    border: lightskyblue solid 5px;
+    border: darkgrey solid 5px;
     height: 200px;
     width: 200px;
 }
@@ -56,14 +63,11 @@ button {
 .dish {
     flex-wrap: wrap;
     justify-content: center;
+    border: darkgreen solid 5px;
 
 }
 .title{
     text-align: center;
 }
-.dish {
-    border: darkgreen solid 5px;
-}
-
 
 }
