@@ -35,12 +35,12 @@ function shownews(takenews) {
 
     let newsy = takenews.map(function (app) {
         return `
-    <li>
+    <li class="newsslot">
+    <div id="title" class="title">${app.title != null ? app.title : ""}</div>
     <div id="author">${app.author != null ? app.author : ""}</div>
-    <div id="title">${app.title != null ? app.title : ""}</div>
     <div id="description">${app.description != null ? app.description : ""}</div>
     <div id="url"><a href="${app.url != null ? app.url : ""}">News Story Link</a></div>
-    <div id="urlToImage"><img src="${app.urlToImage != null ? app.urlToImage : ""}" /></div>
+    <div id="urlToImage"class="imagebox"><img src="${app.urlToImage != null ? app.urlToImage : "http://www.agentlopez.com/news.png"}" class="imagebox" /></div>
     <div id="publishedAt">${app.publishedAt != null ? app.publishedAt : ""}</div>
     </li>
     `

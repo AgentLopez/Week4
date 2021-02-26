@@ -1,0 +1,27 @@
+.site {
+    width: 1fr;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.imagebox {
+    width: 200px;
+    height: auto;
+
+}
+
+.newsHere {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsslot {
+    display: grid;
+    max-width: 300px;
+}
+
+.title {
+    font-size: 1.5rem;
+}
